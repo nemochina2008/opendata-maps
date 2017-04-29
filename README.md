@@ -4,20 +4,20 @@
 ## notes & code used to convert shapefiles
 
 inspect shape file properties:
-'''
+```
 ogrinfo -so -al CTRY_2013_GB_BGC.shp
-'''
+```
 
 use gdal to covert coordinate system:
-'''
+```
 ogr2ogr -t_srs EPSG:4326 CTRY_2013_GB_BGC_WGS84.shp CTRY_2013_GB_BGC.shp
-'''
+```
 
 use topojson to simply & convert format (hires / lores)
-'''
+```
 topojson -o CTRY_2013_GB_BGC_WGS84.topojson --id-property 'CTRY13CD' -q 1e5 --bbox CTRY_2013_GB_BGC_WGS84.shp
 topojson -o CTRY_2013_GB_BGC_WGS84.topojson --id-property 'CTRY13CD' -q 1e5 -s 1e-9 --filter=small --bbox CTRY_2013_GB_BGC_WGS84.shp
-'''
+```
 
 parameters for simplification & quantization:
 
