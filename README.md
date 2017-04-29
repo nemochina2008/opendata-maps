@@ -55,7 +55,9 @@ naturalearth:
 ## derived topojson metadata (tood)
 
 
-|topojson|shapefile|license|transform|simplify|
+|topojson|shapefile|boundary|transform|simplify|
 |---|---|---|---|---|
-||||||
+|ukgov/gbr_ctry_2013.topojson|http://geoportal.statistics.gov.uk/datasets?q=CTRY_Boundaries|Countries in GBR|WGS84|-q 1e5 -s 1e-9|
+|||||
+|||||
 
