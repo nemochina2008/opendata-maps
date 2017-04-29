@@ -24,7 +24,7 @@ parameters for simplification & quantization:
 - for hires detail use small number: -s = simplication = 0.000000001 (1e-9) 
 - for lores detail use large number: -q = quantization = 10000 (1e5)
 
-see notes in gist for more details:
+see notes in gist for more details & sample R code for rendering shapefile / topojson:
 
 - https://gist.github.com/andyjudson/1a1ba0bd85e8b41ba19f
 
