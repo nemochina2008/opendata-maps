@@ -33,7 +33,7 @@ see notes in gist for more details & sample R code for rendering shapefile / top
 
 ukgov:
 
-- repository = http://geoportal.statistics.gov.uk
+- repository = http://geoportal.statistics.gov.uk/
 - license = [open government](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - disclaimer = Contains National Statistics data © Crown copyright and database right. Contains OS data © Crown copyright and database right.
 
@@ -45,7 +45,7 @@ ukgov.scotland [offline]:
 
 usgov:
 
-- repository = https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html
+- repository = [http://www.census.gov/](https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html)
 - license = [public domain](https://ask.census.gov/prweb/PRServletCustom/YACFBFye-rFIz_FoGtyvDRUGg1Uzu5Mn*/!STANDARD)
 
 naturalearth:
