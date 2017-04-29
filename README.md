@@ -39,7 +39,7 @@ ukgov:
 
 ukgov.scotland [offline]:
 
-- repository = http://crtb.sedsh.gov.uk/spatialDataDownload/dload.asp
+- repository = [http://crtb.sedsh.gov.uk/](http://crtb.sedsh.gov.uk/spatialDataDownload/dload.asp)
 - license = [open government](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - disclaimer = Contains National Statistics data © Crown copyright and database right. Contains OS data © Crown copyright and database right.
 
@@ -57,7 +57,7 @@ naturalearth:
 ## derived topojson metadata
 
 
-|topojson|country|year|source|resolution|transform|simplify|id-column|id-example|
+|topojson|country|year|boundary|resolution|transform|simplify|id-column|id-example|
 |---|---|---|---|---|---|---|---|---|
 |[ukgov/gbr_ctry_2013.topojson](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/gbr_ctry_2013.topojson)|ENG,SCO,WAL|2013|[Country Boundaries](http://geoportal.statistics.gov.uk/datasets?q=CTRY_Boundaries)|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|CTRY13CD|E92000001|
 |[ukgov/eng_ccg_2013.topojson](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/eng_ccg_2013.topojson)|ENG|2013|[NHS Clinical Commissioning Group Boundaries](http://geoportal.statistics.gov.uk/datasets?q=CCG+Boundaries)|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|CCG13CD|E38000126|
@@ -67,7 +67,7 @@ naturalearth:
 |[ukgov/gbr_wd_2013.topojson](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/gbr_wd_2013.topojson)|ENG,SCO,WAL|2013|[Electoral Wards](http://geoportal.statistics.gov.uk/datasets?q=WD+Boundaries)|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|WD16CD|E05000950|
 |[ukgov/sco_dz_2011.topojson](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/sco_dz_2011.topojson)|SCO|2011|Datazone Boundaries|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|DZ_CODE|S01000001|
 |[ukgov/sco_hb_2013.topojson](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/sco_hb_2013.topojson)|SCO|2013|NHS Healthboard Boundaries|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|S0_CODE|S08000001|
-|[ukgov/sco_iz_2011.topojson)](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/sco_iz_2011.topojson)|SCO|2011|Intermediate Zone Boundaries|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|IZ_CODE|S02000001|
+|[ukgov/sco_iz_2011.topojson](https://github.com/andyjudson/opendata-maps/blob/master/ukgov/sco_iz_2011.topojson)|SCO|2011|Intermediate Zone Boundaries|Generalised Clipped (20m)|WGS84|-q 1e5 -s 1e-9|IZ_CODE|S02000001|
 |[usgov/cb_2013_us_nation_500k.topojson](https://github.com/andyjudson/opendata-maps/blob/master/usgov/cb_2013_us_nation_500k.topojson)|USA|2013|[National Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_nation.html)|1:5m Resolution|WGS84|-q 1e5 -s 1e-9|GEOID|US|
 |[usgov/cb_2013_us_state_500k.topojson](https://github.com/andyjudson/opendata-maps/blob/master/usgov/cb_2013_us_state_500k.topojson)|USA|2013|[State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)|1:500k Resolution|WGS84|-q 1e5 -s 1e-9|STUSPS|NY|
 |[usgov/cb_2013_us_state_mainland_500k.topojson](https://github.com/andyjudson/opendata-maps/blob/master/usgov/cb_2013_us_state_mainland_500k.topojson)|USA|2013|[State Boundaries](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html)|1:500k Resolution|WGS84 + filtered to 48 states|-q 1e5 -s 1e-9|STUSPS|NY|
